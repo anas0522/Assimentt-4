@@ -1,0 +1,54 @@
+.pop-out-container,
+.pop-out-left,
+.pop-out-right,
+.right-title,
+.right-description,
+.right-size,
+.right-quantity
+{
+    display: flex;
+    flex-direction: column;
+}
+.pop-out-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pop-out-data{
+    display: flex;
+}
+.pop-out-left{
+    width: 5.7%;
+    margin-right: 2.5%;
+    margin-left: 2%;
+}
+.pop-out-left img{
+    width: 100%;
+    /* width: 1rem; */
+    height: 100%;
+}
+.pop-out-img{
+    width: 38.487%;
+    margin-right: 2.5%;
+}
+.pop-out-img img{
+    width: 100%;
+    height: auto;
+}
+.right-title span,
+.right-quantity span,
+.right-quantity div,
+.right-size div{
+    display: flex;
+    justify-content: space-between;
+}
+.right-employment,
+.right-partnership,
+.right-collab
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.size-buttons{
+    display: flex;
+}

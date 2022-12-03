@@ -1,0 +1,334 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    opacity: 1;
+}
+
+.card:hover {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    opacity: 0.2;
+}
+
+/* .card-img {
+    position: relative;
+} */
+.Details {
+    position: absolute;
+    margin-top: 13%;
+    width: 10%;
+    margin-left: 3.5%;
+    opacity: 1;
+    height: 6.5vh;
+    background-color: rgba(51, 51, 58, 1);
+
+}
+
+
+.QuickText {
+    opacity: 1;
+    color: rgba(255, 255, 255, 1);
+    font-family: "ProximaNova-Bold";
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.popDiv {
+    display: flex;
+    background-color: #2196F3;
+    padding: 10px;
+    width: 82vw;
+    height: 88.8vh;
+    flex-direction: column;
+    background-color: antiquewhite;
+
+}
+
+.headerText {
+    opacity: 1;
+    color: rgba(3, 3, 3, 1);
+    font-family: "ProximaNova-Light";
+    font-size: 1.3vw;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.Cross {
+    text-align: right;
+}
+
+.images {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-width: 5vw;
+    margin-top: 7%;
+}
+
+.allImage {
+    width: 4vw;
+    height: 8vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    height: 12vh;
+}
+
+.bodyDiv {
+    display: flex;
+    width: 100%;
+    min-height: 20vh;
+}
+
+.card-price {
+    opacity: 1;
+    color: rgba(51, 51, 58, 1);
+    font-family: "ProximaNova-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 30px;
+    margin: 1%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin-left: 6%;
+}
+
+.right-body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+.mainImg {
+    width: 30vw;
+    height: 70vh;
+    margin-top: -3%;
+}
+
+.card-description {
+    opacity: 1;
+    color: rgba(51, 51, 58, 1);
+    font-family: "VLNewParisHeadline";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 25px;
+    margin: 1%;
+}
+
+.titlePop {
+    opacity: 1;
+    color: rgba(3, 3, 3, 1);
+    font-family: "VLNewParisHeadline";
+    font-size: 1.8vw;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -2.1vw;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.div3Boxes {
+    display: flex;
+    flex-direction: row;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.buttons {
+    border: 1px solid rgba(243, 243, 243, 1);
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 1);
+    width: 3vw;
+    margin-right: 2%;
+    height: 5vh;
+}
+
+.guidLine {
+    opacity: 1;
+    color: rgba(51, 51, 58, 1);
+    font-family: "ProximaNova-Semibold";
+    font-size: 1.15vw;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-align: right;
+    margin-left: 17vw;
+    text-transform: uppercase;
+}
+
+.modelText {
+    opacity: 1;
+    color: rgba(102, 102, 102, 1);
+    font-family: "ProximaNova-Regular";
+    font-size: 1vw;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.plusMinus {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.buttonPlus {
+    opacity: 1;
+    background-color: rgba(243, 243, 243, 1);
+    height: 38px;
+    width: 38px;
+}
+
+.counter {
+    opacity: 1;
+    color: rgba(81, 83, 86, 1);
+    font-family: "ProximaNova-Regular";
+    font-size: 1vw;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.addCart {
+    opacity: 1;
+    background-color: rgba(51, 51, 58, 1);
+    width: 20vw;
+    height: 4vh;
+}
+
+.quantityText {
+    opacity: 1;
+    color: rgba(51, 51, 58, 1);
+    font-family: "ProximaNova-Regular";
+    font-size: 1vw;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.textButtons {
+    opacity: 1;
+    color: rgba(81, 83, 86, 1);
+    font-family: "ProximaNova-Regular";
+    font-size: 1.13vw;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.divSize {
+    display: flex;
+    flex-direction: row;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 15vw;
+
+}
+
+.starsText {
+    opacity: 1;
+    color: rgba(102, 102, 102, 1);
+    font-family: "ProximaNova-Light";
+    font-size: 1.2vw;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: justify;
+    padding-left: 2%;
+}
+
+.divDescription {
+    width: 70%;
+}
+
+.textOfDescription {
+    opacity: 1;
+    color: rgba(102, 102, 102, 1);
+    font-family: "ProximaNova-Light";
+    font-size: 1.2vw;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: justify;
+}
+
+.titleDes {
+    opacity: 1;
+    color: rgba(0, 0, 0, 1);
+    font-family: "ProximaNova-Light";
+    font-size: 1.4vw;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.SGD {
+    opacity: 1;
+    color: rgba(255, 96, 8, 1);
+    font-family: "ProximaNova-Light";
+    font-size: 1.8vw;
+    font-weight: 300;
+    width: 8vw;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-right: 45%
+}
+
+@media only screen and (max-width: 700px) {
+    .card {
+        flex: 0 0 auto;
+        max-width: 65%;
+        height: auto;
+    }
+
+    .card-description {
+        text-align: center;
+    }
+
+    .card-price {
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+    .card-img {
+        max-width: 100%;
+        height: auto;
+    }
+}
